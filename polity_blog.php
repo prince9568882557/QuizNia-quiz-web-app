@@ -76,6 +76,30 @@
             font-size: 20px;
         }
 
+        .ebtn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: rgb(22, 120, 9);
+  color: white;
+  /* margin: 17px; */
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 91vh;
+  margin-bottom: 2vh;
+}
+
+.ebtn:hover {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: rgb(22, 120, 9);
+  color: white;
+  /* margin: 17px; */
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer
+}
+     
         footer {
             /* background: rgb(210 211 210); */
             background: rgb(62 177 46);
@@ -92,15 +116,15 @@
 
     <nav id="navbar">
         <div id="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="logo.jpg" alt="QuizNia.in">
             </a>
         </div>
         <ul>
-            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="#">Courses</a></li>
             <li class="item"><a href="#">Quizzes</a></li>
-            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="contact_form.php">Contact Us</a></li>
     </nav>
 
     <div class="firstcontainer">
@@ -191,13 +215,13 @@
         </div>
     </div>
 
+    <a href="polity_quiz.php"><button class="ebtn">Start your quiz</button></a>
 
     <footer class="text-gray-600 body-font">
         <div
             class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-
                     <img src="logo.jpg" alt="QuizNia.in">
                     <span class="ml-3 text-xl">QuizNia</span>
                 </a>
@@ -208,7 +232,7 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Us</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                        <a href="#about"class="text-gray-600 hover:text-gray-800">About Us</a>
                         </li>
                     </nav>
                 </div>
@@ -216,44 +240,41 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Resources</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Articals</a>
+                        <a href="#blog"class="text-gray-600 hover:text-gray-800">Blogs</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Blogs</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">CheatSheet</a>
+                        <a href="#" class="text-gray-600 hover:text-gray-800">CheatSheet</a>
                         </li>
                     </nav>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Comunity</h2>
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Community</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Forms</a>
+                        <a href="#" class="text-gray-600 hover:text-gray-800">Forums</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Discord</a>
+                        <a href="#"class="text-gray-600 hover:text-gray-800">Discord</a>
                         </li>
                     </nav>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Subjects</h2>
                     <nav class="list-none mb-10">
-                    <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="english.php">English</a>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="english.php">English</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="sciemce.php">Science</a>
+                            <a class="text-gray-600 hover:text-gray-800" href="science.php">Science</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="GS.php">General-studies</a>
+                            <a class="text-gray-600 hover:text-gray-800" href="GS.php">General-studies</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="maths.php">Maths</a>
+                            <a class="text-gray-600 hover:text-gray-800" href="maths.php">Maths</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="reasoning.php">Reasoning</a>
+                            <a class="text-gray-600 hover:text-gray-800" href="reasoning.php">Reasoning</a>
                         </li>
                     </nav>
                 </div>
@@ -267,6 +288,7 @@
         </div>
 
     </footer>
+
 </body>
 
 </html>

@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,15 +33,15 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="logo.jpg" alt="QuizNia.in">
             </a>
         </div>
         <ul>
             <li class="item"><a href="index.php">Home</a></li>
-            <li class="item"><a href="#">Blogs</a></li>
-            <li class="item"><a href="#">About Us</a></li>
-            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="#blog">Blogs</a></li>
+            <li class="item"><a href="#about">About Us</a></li>
+            <li class="item"><a href="contact_form.php">Contact Us</a></li>
         </ul>
     </nav>
 
@@ -61,7 +54,7 @@
     </section>
 
 
-    <div class="third section">
+    <div class="third section" id="about">
         <section class="text-gray-600 body-font overflow-hidden">
             <div class="container px-5 py-24 mx-auto">
                 <div class="lg:w-4/5 mx-auto flex flex-wrap">
@@ -115,18 +108,122 @@
             </div>
             <div class="one">
                 <p>Get Exam Ready With Us</p>
-                <!-- <img src="logo.jpg" alt=""> -->
-                <!-- <button class="ebtn">begin prepration</button> -->
             </div>
         </section>
     </div>
+    
+    <section class="bg-white " id="blog">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+          <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font text-gray-900 dark:text-black">Our Subjects</h2>
+          <p class="font-light text-gray-500 sm:text-xl dark:text-gray-900">"Unveiling a Spectrum of Subjects: Your Gateway to Varied Learning and Exploration"</p>
+      </div> 
+      <div class="grid gap-8 lg:grid-cols-2">
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-white-800 dark">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-green"><a href="#">English</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora voluptatem, totam temporibus deleniti vel, facilis laborum, harum ea molestias inventore expedita? Cupiditate ratione earum unde itaque iusto omnis commodi.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      
+                  </div>
+                  <a href="#" id="alert" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-white-800 dark">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-green"><a href="#">Science</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora voluptatem, totam temporibus deleniti vel, facilis laborum, harum ea molestias inventore expedita? Cupiditate ratione earum unde itaque iusto omnis commodi.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      
+                  </div>
+                  <a href="#" id="alert"class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-white-800 dark">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-green"><a href="#">General Science</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora voluptatem, totam temporibus deleniti vel, facilis laborum, harum ea molestias inventore expedita? Cupiditate ratione earum unde itaque iusto omnis commodi.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      
+                  </div>
+                  <a href="#" id="alert"class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-white-800 dark">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-green"><a href="#">Maths</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora voluptatem, totam temporibus deleniti vel, facilis laborum, harum ea molestias inventore expedita? Cupiditate ratione earum unde itaque iusto omnis commodi.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      
+                  </div>
+                  <a href="#" id="alert"class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-white-800 dark">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-green"><a href="#">Reasoning</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora voluptatem, totam temporibus deleniti vel, facilis laborum, harum ea molestias inventore expedita? Cupiditate ratione earum unde itaque iusto omnis commodi.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      
+                  </div>
+                  <a href="#" id="alert" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-white-800 dark">
+              <div class="flex justify-between items-center mb-5 text-gray-500">
+                  <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              </div>
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-green"><a href="#">CheetSheet</a></h2>
+              <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora voluptatem, totam temporibus deleniti vel, facilis laborum, harum ea molestias inventore expedita? Cupiditate ratione earum unde itaque iusto omnis commodi.</p>
+              <div class="flex justify-between items-center">
+                  <div class="flex items-center space-x-4">
+                      
+                  </div>
+                  <a href="#" id="alert" class="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                      Read more
+                      <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          
+      </div>  
+  </div>
+</section>
 
-
-    <div class="third section">
+<div class="third section">
         <section class="second">
             <div class="box1">
             <span id="element"></span>
-                <!-- <h1>Engaging Questions</h1> -->
             </div>
             <div class="box2">
                 <div>
@@ -138,7 +235,6 @@
         </section>
 
     </div>
-
     <div class="third section">
         <section class="third">
             <div class="freesignup">
@@ -173,7 +269,7 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Us</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                            <a href="#about"class="text-gray-600 hover:text-gray-800">About Us</a>
                         </li>
                     </nav>
                 </div>
@@ -181,13 +277,10 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Resources</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Articals</a>
+                            <a href="#blog"class="text-gray-600 hover:text-gray-800">Blogs</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Blogs</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">CheatSheet</a>
+                            <a href="#" class="text-gray-600 hover:text-gray-800">CheatSheet</a>
                         </li>
                     </nav>
                 </div>
@@ -195,10 +288,10 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Community</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Forums</a>
+                            <a href="#" class="text-gray-600 hover:text-gray-800">Forums</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Discord</a>
+                            <a href="#"class="text-gray-600 hover:text-gray-800">Discord</a>
                         </li>
                     </nav>
                 </div>
@@ -206,19 +299,19 @@
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Subjects</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="english.php">English</a>
+                            <a class="text-gray-600 hover:text-gray-800" id="alert" href="#">English</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="sciemce.php">Science</a>
+                            <a class="text-gray-600 hover:text-gray-800" id="alert" href="#">Science</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="GS.php">General-studies</a>
+                            <a class="text-gray-600 hover:text-gray-800" id="alert" href="#">General-studies</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="maths.php">Maths</a>
+                            <a class="text-gray-600 hover:text-gray-800" id="alert" href="#">Maths</a>
                         </li>
                         <li>
-                            <a class="alert text-gray-600 hover:text-gray-800" href="reasoning.php">Reasoning</a>
+                            <a class="text-gray-600 hover:text-gray-800" id="alert" href="#">Reasoning</a>
                         </li>
                     </nav>
                 </div>
@@ -241,8 +334,8 @@
         });
 
         
-        document.querySelector(".alert").addEventListener("click",function(){
-            alert('Signup first');
+        document.querySelector("#alert").addEventListener("click",function(){
+            alert('Please Signup first');
         })
    
 </script>
